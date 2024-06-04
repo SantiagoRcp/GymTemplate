@@ -1,0 +1,16 @@
+{
+  "social": [
+    {
+      "link": "https://www.facebook.com/",
+      "icon": "<i class='fa-brands fa-facebook'></i>"
+    },
+    {
+      "link": "https://x.com/home?lang=ES",
+      "icon": "<i class='fa-brands fa-x-twitter'></i>"
+    },
+    {
+      "link": "https://www.instagram.com/",
+      "icon": "<i class='fa-brands fa-instagram'></i>"
+    }
+  ]
+}

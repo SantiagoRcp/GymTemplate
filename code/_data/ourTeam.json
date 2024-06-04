@@ -1,0 +1,21 @@
+{
+  "ourTeam": [
+    {
+      "name": "Smith",
+      "img": "/img/instructor-1.jpg",
+      "phrase": "Don't let fear stop you, keep going."
+    },
+
+    {
+      "name": "Samanta",
+      "img": "/img/instructor-2.jpg",
+      "phrase": "If you want different results, do different things."
+    },
+
+    {
+      "name": "Michael",
+      "img": "/img/instructor-3.jpg",
+      "phrase": "Success is the sum of small efforts repeated day after day."
+    }
+  ]
+}

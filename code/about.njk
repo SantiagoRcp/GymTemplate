@@ -1,0 +1,65 @@
+---
+metaDescription: Gym Template, page About. Know our history and be part of it
+title: Gym | About 
+titlePage: About Us
+layout: layout-page
+---
+
+<section class="hero_image hero-about">
+    <div class="hero_imagen_content">
+        <h1 class="hero_title">{{ titlePage }}</h1>
+        <p class="hero_text">Lorem ipsum dolor sit amet consectetur</p>
+        <p class="hero_text">Lorem ipsum dolor sit amet</p>
+    </div>
+</section>
+<section class="about bgc-1 pd-3">
+    <div class="container">
+        <h2 class="title">Our History</h2>
+        <div class="about_content">
+            <img src="/img/img-2.jpg" alt="hola" class="img-1" loading="lazy"/>
+            <div class="text-1">
+                <h3 class="subTitle">Know Us</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis iure explicabo quo inventore distinctio! Beatae deserunt
+                    ea atque incidunt doloribus cumque fuga quasi sit cum, ullam sint dolore obcaecati tenetur? Lorem ipsum dolor sit amet
+                    consectetur, adipisicing elit.
+                </p>
+                <br/>
+                <p>
+                    At atque ut molestiae eveniet itaque laboriosam velit rem aperiam saepe. Iusto eligendi modi architecto vitae hic
+                    asperiores, animi adipisci quia suscipit!
+                </p>
+                <br/>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur. At atque ut molestiae eveniet itaque laboriosam velit rem aperiam saepe. Iusto
+                    eligendi modi architecto vitae hic asperiores.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="lovesSports">
+    <div class="container">
+        <h3 class="subTitle">Love Sports</h3>
+        <p class="center pd-2">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum dolores sed aliquam accusantium sit dolor possimus quam
+            veniam? Impedit ea consequatur totam blanditiis, hic unde necessitatibus repellat veniam autem recusandae?
+        </p>
+    </div>
+</section>
+<section class="coaches bgc-2 pd-3">
+    <div class="container">
+        <h2 class="title">Our Team</h2>
+        <div class="cards">
+            {%- for team in ourTeam.ourTeam -%}
+                <article class="card">
+                    <img src="{{ team.img }}" alt="{{ team.name }}" class="card_img" loading="lazy"/>
+                    <h3 class="center">{{ team.name }}</h3>
+                    <p class="center">
+                        <i>{{ team.phrase }}</i>
+                    </p>
+                </article>
+            {%- endfor -%}
+        </div>
+    </div>
+</section>

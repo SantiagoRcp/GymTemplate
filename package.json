@@ -1,0 +1,23 @@
+{
+  "name": "gymtemplate",
+  "version": "1.0.0",
+  "description": "Gym Template ",
+  "main": ".eleventy.js",
+  "scripts": {
+    "install": "npm install @11ty/eleventy --save-dev",
+    "start": "npx @11ty/eleventy --serve --port=5225",
+    "clear": "rm -rf docs",
+    "deploy": "npx @11ty/eleventy --pathprefix=/",
+    "deploy-subdomine": "npx @11ty/eleventy --pathprefix=/GymTemplate/"
+  },
+  "keywords": [
+    "Gym",
+    "Template",
+    "Eleventy"
+  ],
+  "author": "SantiagoRcp",
+  "license": "MIT",
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1"
+  }
+}

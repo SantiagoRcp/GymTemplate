@@ -1,0 +1,25 @@
+{
+  "why": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias debitis reiciendis delectus corrupti.",
+  "weOffer": [
+    {
+      "offer": "<b>Modern Equipment</b>",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum alias nihil nemo tempora dolores perspiciatis corporis perferendis recusandae numquam corrupti.",
+      "img": "img/banner.jpg",
+      "alt": "Equipment"
+    },
+
+    {
+      "offer": "<b>Nutritional Plan</b>",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum alias nihil nemo tempora dolores perspiciatis corporis perferendis recusandae numquam corrupti.",
+      "img": "img/nutritional-plan.jpg",
+      "alt": "Nutritional Plan"
+    },
+
+    {
+      "offer": "<b>personal trainers</b>",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum alias nihil nemo tempora dolores perspiciatis corporis perferendis recusandae numquam corrupti.",
+      "img": "img/entrenador.jpg",
+      "alt": "personal trainers"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+---
+metaDescription: Gym Template, page Classes. Get information about our classes and workshops and be part of them
+title: Gym | Classes
+titlePage: Our Classes
+layout: layout-page
+---
+
+<section class="hero_image hero-classes">
+    <div class="hero_imagen_content">
+        <h1 class="hero_title">{{ titlePage }}</h1>
+        <p class="hero_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        <p class="hero_text">Get up, train, repeat.</p>
+    </div>
+</section>
+<section class="classes bgc-1 pd-3">
+    <h3 class="title">We have a wide variety of classes that you can sign up for.</h3>
+    {%- for class in class.classes -%}
+        <div class="class">
+            <h2 class="subTitle">{{ class.className }}</h2>
+            <div class="imgClass">
+                <img src="{{ class.classImg }}" alt="{{ class.className }}" loading="lazy"/>
+            </div>
+            <p class="classDescription">{{ class.classDescription }}</p>
+            <video controls loading="lazy">
+                <source src="{{ class.classVideo }}" type="video/mp4"/>
+            </video>
+        </div>
+        <hr/>
+    {%- endfor -%}
+</section>

@@ -1,0 +1,64 @@
+---
+metaDescription: Gym Template
+title: Gym 
+titlePage: Fitness & Gym Club
+layout: layout-page
+---
+
+<section class="hero_image img-home">
+    <div class="hero_imagen_content">
+        <h1 class="hero_title">{{ titlePage }}</h1>
+        <p class="hero_text">Discipline is the basis of success.</p>
+        <p class="hero_text">Get up, train, repeat.</p>
+    </div>
+</section>
+<section class="whyUs bgc-1 pd-3">
+    <div class="container">
+        <h2 class="title">Why Chose Us?</h2>
+        <p class="center">{{ whyUs.why }}</p>
+        <p class="subTitle mt-3">We Offer</p>
+        <div class="cards">
+            {%- for offer in whyUs.weOffer -%}
+                <article class="card">
+                    <img src="{{ offer.img }}" alt="{{ offer.alt }}"/>
+                    <h3 class="card_title center">{{ offer.offer | safe }}</h3>
+                    <p class="card_description">{{ offer.description }}</p>
+                </article>
+            {%- endfor -%}
+        </div>
+    </div>
+</section>
+<section class="choose bgc-2 pd-3">
+    <div class="container">
+        <h2 class="title">Choose your Class</h2>
+        <div class="classes">
+            {%- for class in class.classes -%}
+                <article class="df-wr">
+                    <div class="imgClass">
+                        <img src="{{ class.classImg }}" alt="{{ className }}" loading="lazy"/>
+                    </div>
+                    <div class="info pd-3">
+                        <h3 class="nameClass center">{{ class.className }}</h3>
+                        <p class="classDescription">{{ class.classDescription }}</p>
+                    </div>
+                </article>
+            {%- endfor -%}
+        </div>
+    </div>
+</section>
+<section class="coaches bgc-1 pd-3">
+    <div class="container">
+        <h2 class="title">Our Team</h2>
+        <div class="cards">
+            {%- for team in ourTeam.ourTeam -%}
+                <article class="card">
+                    <img src="{{ team.img }}" alt="team.name" class="card_img"/>
+                    <h3 class="center">{{ team.name }}</h3>
+                    <p class="center">
+                        <i>{{ team.phrase }}</i>
+                    </p>
+                </article>
+            {%- endfor -%}
+        </div>
+    </div>
+</section>

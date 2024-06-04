@@ -1,0 +1,40 @@
+{
+  "classes": [
+    {
+      "className": "Pilates",
+      "classDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas eligendi, vero obcaecati earum expedita, inventore, porro delectus rem sit nobis ratione dignissimos unde Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas eligendi, vero obcaecati earum expedita, inventore, porro delectus rem sit nobis ratione dignissimos unde",
+      "classImg": "/img/pilates.jpg",
+      "classVideo": "/img/pilatesVideo.mp4",
+      "schedule": []
+    },
+    {
+      "className": "CrossFit",
+      "classDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas eligendi, vero obcaecati earum expedita, inventore, porro delectus rem sit nobis ratione dignissimos unde Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas eligendi, vero obcaecati earum expedita, inventore, porro delectus rem sit nobis ratione dignissimos unde",
+      "classImg": "/img/croossFit.jpg",
+      "classVideo": "/img/crossfitVideo.mp4",
+      "schedule": []
+    },
+    {
+      "className": "Box",
+      "classDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas eligendi, vero obcaecati earum expedita, inventore, porro delectus rem sit nobis ratione dignissimos unde Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas eligendi, vero obcaecati earum expedita, inventore, porro delectus rem sit nobis ratione dignissimos unde",
+      "classImg": "/img/box.jpg",
+      "classVideo": "/img/boxVideo.mp4",
+      "schedule": []
+    },
+    {
+      "className": "Weightlifting",
+      "classDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas eligendi, vero obcaecati earum expedita, inventore, porro delectus rem sit nobis ratione dignissimos unde Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas eligendi, vero obcaecati earum expedita, inventore, porro delectus rem sit nobis ratione dignissimos unde",
+      "classImg": "/img/pesas.jpg",
+      "classVideo": "/img/pesasVideo.mp4",
+
+      "schedule": []
+    },
+    {
+      "className": "Yoga",
+      "classDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas eligendi, vero obcaecati earum expedita, inventore, porro delectus rem sit nobis ratione dignissimos unde Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas eligendi, vero obcaecati earum expedita, inventore, porro delectus rem sit nobis ratione dignissimos unde",
+      "classImg": "/img/yoga.jpg",
+      "classVideo": "/img/YogaVideo.mp4",
+      "schedule": []
+    }
+  ]
+}
