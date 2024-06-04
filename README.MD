@@ -46,4 +46,4 @@ Nunjucks was used as a template language, see its documentation in the following
 
 ![our History](/ScreenShot/img2.png)
 
-[Demo](https://santiagorcp.github.io/GymTemplate/)
+[Live Preview](https://santiagorcp.github.io/GymTemplate/)
